@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Define a Viewport Bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso de Bootstrap-03</title>
+    <!--Adicionar Css Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <!--Adicionar Css-Estilo-Proprio-personalizado Bootstrap-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1 id="tit">Trabalhando Com Navbar Bootstrap-03</h1>
+    <hr>
+    <!--Trabalhando Com Navbar Bootstrap-03-->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="#">
+                                        <img alt="Brand" src="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </nav><button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a><button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav><button type="button" class="btn btn-default navbar-btn">Sign in</button>
+    <hr><button type="button" class="btn btn-default navbar-btn">Sign in</button>
+    <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="img/Bootstrap-3.png" width="40px" height="30px">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <hr>
+    <hr>
+    <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+    <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li class="active">Data</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="conatiner">
+        <div class="row">
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li><a href="#">Previous</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <h1>Example heading <span class="label label-default">New</span></h1>
+                <h2>Example heading <span class="label label-danger">New</span></h2>
+                <h3>Example heading <span class="label label-primary">New</span></h3>
+                <h4>Example heading <span class="label label-default">New</span></h4>
+                <h5>Example heading <span class="label label-default">New</span></h5>
+                <h6>Example heading <span class="label label-default">New</span></h6>
+            </div>
+
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <span class="label label-default">Default</span>
+                <span class="label label-primary">Primary</span>
+                <span class="label label-success">Success</span>
+                <span class="label label-info">Info</span>
+                <span class="label label-warning">Warning</span>
+                <span class="label label-danger">Danger</span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <a href="#">Inbox <span class="badge">42</span></a>
+
+                <button class="btn btn-primary" type="button">
+                      Messages <span class="badge">4</span>
+                    </button>
+
+
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <ul class="nav nav-pills" role="tablist">
+                    <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--Configuração dos arquivos js e jquery-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
